@@ -4,7 +4,7 @@ const axios = require('axios');
 const port = 3000;
 
 app.get('/', function(req,res){
-        res.send("please visit http://143.244.145.156:3000/say?keyword=Welcome   for AWS function response");
+        res.send("Kindly visit http://143.244.145.156:3000/say?keyword=Welcome");
 });
 
 app.get('/say', function(req,res) {
